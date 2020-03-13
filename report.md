@@ -17,10 +17,15 @@ Section-B
 
 Experiment1 : Write a code to print your name
 ```C
+
 #include<stdio.h>
 int main()
 {
-puts("Saurav ");
+puts("Saurav");
 return 0;
 }
-```
+
+````
+Output:
+
+Saurav
