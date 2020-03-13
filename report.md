@@ -1,3 +1,5 @@
+![image](https://img.collegedekhocdn.com/media/img/institute/logo/GNDEC_Ludhiana_logo.png)
+
 # Programming for Problem solving(ESC-105)
 ----
 Name-Saurav Kumar
@@ -10,4 +12,3 @@ Branch-Electrical Engineering
 
 Section-B
 
-![image]()
