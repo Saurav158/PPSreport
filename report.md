@@ -24,7 +24,11 @@ int main()
 puts("Saurav");
 return 0;
 }
-
 ````
+
 Output:
 Saurav
+----
+
+Experiment2 :Write a code to print FOX
+````C
