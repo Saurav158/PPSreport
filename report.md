@@ -11,4 +11,13 @@ Univ roll-1905152
 Branch-Electrical Engineering
 
 Section-B
+----
 
+Experiment1 : Write a code to print your name
+```
+#include<stdio.h>
+int main()
+{
+puts("Saurav ");
+}
+```
