@@ -14,7 +14,7 @@ Section-B
 ----
 
 Experiment1 : Write a code to print your name
-```
+```C
 #include<stdio.h>
 int main()
 {
