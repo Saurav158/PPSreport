@@ -2,13 +2,15 @@
 
 # Programming for Problem solving(ESC-105)
 ----
-Name-Saurav Kumar
+Submitted by: Saurav Kumar
 
-Class roll-1916069
+Class roll: 1916069
 
-Univ roll-1905152
+Univ roll: 1905152
 
-Branch-Electrical Engineering
+Branch: Electrical Engineering
+
+Batch: 2019-2023
 
 Section-B
 ----
