@@ -140,7 +140,7 @@ Area of the rectangle = 35 square inches
 
 ````
 -----
-Experiment:Design a code to execute addition of two numbers if the sum is even.
+Experiment: Design a code to execute addition of two numbers if the sum is even.
 
 
 Display a message Even otherwise Odd.
@@ -299,3 +299,4 @@ Fizz Buzz
 24
 ````
 ----
+Experiment: 
