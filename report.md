@@ -98,7 +98,7 @@ Output:
 67
 ````
 -----
-experiment :Write a C program to print the following character in a reverse way without using any predefined function and header file.
+experiment5 :Write a C program to print the following character in a reverse way without using any predefined function and header file.
 ````C
 {
 #include<stdio.h>
@@ -115,7 +115,7 @@ Output:
 RAM is MAR
 ````
 ----
-Experiment:Write a C program to compute the perimeter and area of a rectangle with a
+Experiment6 :Write a C program to compute the perimeter and area of a rectangle with a
  height of 7 inches and width of 5 inches.
  ````C
  #include<stdio.h>
@@ -140,7 +140,7 @@ Area of the rectangle = 35 square inches
 
 ````
 -----
-Experiment: Design a code to execute addition of two numbers if the sum is even.
+Experiment7 : Design a code to execute addition of two numbers if the sum is even.
 
 
 Display a message Even otherwise Odd.
@@ -164,7 +164,7 @@ Output:
 Odd
 ````
 ----
-experiment:Design a code to mark 'Present' if student entered in a hall before 8:35 and
+experiment8 :Design a code to mark 'Present' if student entered in a hall before 8:35 and
 marked 'Late' before 8:45 otherwise marked 'Absent'.
 
 
@@ -220,7 +220,7 @@ Output:
 Sorry Gate closed                                                               
 ````
 -----
-Experiment:Write a code to convert temperature from Fahrenheit scale to centigrade scale.
+Experiment9 :Write a code to convert temperature from Fahrenheit scale to centigrade scale.
 ````C
 #include<stdio.h>
 int main()
@@ -244,7 +244,7 @@ Fahrenheit scale: 67.00
 Centigrade scale: 19.44
 ``````
 -----
-Experiment:Write a code to find the factorial of a number.
+Experiment10 :Write a code to find the factorial of a number.
 ```C
 #include<stdio.h>
 int main()
@@ -266,7 +266,7 @@ Output:
 720
 ````
 ----
-Experiment:write a code to play Fizzbuzz.
+Experiment11 :write a code to play Fizzbuzz.
 ````C
 #include<stdio.h>
 int main()
@@ -299,4 +299,157 @@ Fizz Buzz
 24
 ````
 ----
-Experiment: 
+Experiment12 :Write a code to print table of any number.
+````C
+#include<stdio.h>
+int main()
+{
+int i,num;
+scanf("%d",&num);
+for(int i=1;i<=10;i++)
+{
+printf("%d x %d=%d\n",num,i,num*i);
+}
+return 0;
+}
+````
+Output:
+````
+12 x 1 = 12
+12 x 2 = 24
+ :  :  :
+ :  :  :
+12 x 10 = 120
+`````
+-----
+Experiment13 :Write a code to print table between range i.e table 6 to 9.
+````C
+#include<stdio.h>
+int main()
+{
+    int num1,num2,i,j;
+    scanf("%d %d",&num1,&num2);
+    for(i=num1;i<=num2;i++)
+    {
+        for(j=1;j<=10;j++)
+        {
+        printf("%d x %d=%d\n",num1,j,num1*j);
+        }
+        if(num1<num2)
+        printf("_______\n\n");
+        num1=num1+1;
+    }
+    return 0;
+}
+````
+Output:
+````
+6 x 1 = 6    
+
+6 x 2 = 12                             
+. . . . .  
+
+6 x 10 = 60        
+____________
+
+7 x 1 = 7 
+
+7 x 2 = 14  
+. . . . . 
+
+7 x 10 = 70
+____________
+
+9 x 1 = 9 
+
+9 x 2 = 18    
+ . . . .  .   
+
+9 x 10 = 90 
+````
+----
+Experiment14 :Write a code to display the number is prime or not.
+````C
+#nclude<stdio.h>
+int main()
+{
+    int num,a=1,i;
+    scanf("%d",&num);
+    for(i=2;i<=num/2;i++)
+    {
+        if(num%i==0)
+        {
+        a=0;
+        break;
+        }
+        
+    }
+    if(a==1)
+    printf("Number is Prime");
+    else
+    printf("Number is not Prime");
+    
+return 0;
+    
+}
+````
+Output:
+````
+13
+Number is prime.
+````
+----
+Experiment15 :Write a code to print a range of prime number between some range.
+````C
+#include<stdio.h>
+int main()
+{
+    int num1,num2,i,j;
+    scanf("%d %d",&num1,&num2);
+    for(i=num1;i<=num2;i++)
+    {
+    for(j=2;j<i;j++)
+    {
+        if(i%j==0)
+            break;
+    }
+        if(i==j)
+        printf("%d \n",i);
+
+    }
+
+    return 0;
+}
+````
+Output:
+````
+2 10
+2 
+3
+5
+7
+``````
+-----
+Experiment16 :Write a program to swap two numbers using a temporary variable.
+````C
+#include<stdio.h>
+int main()
+{
+    int x,y,temp;
+    scanf("%d %d ",&x,&y);
+    printf("x=%d and  y=%d are two numbers ",x,y);
+    temp=x;
+    x=y;
+    y=temp;
+    printf("x=%d and y=%d",x,y);
+    return 0;
+}
+````
+Output:
+````
+a=2
+b=3
+a=3
+b=2
+````
+----
