@@ -473,7 +473,6 @@ for any other input it will display:
 
 Have a nice day!
 `````C
-
 #include<stdio.h>
 int main()
 {
@@ -531,7 +530,25 @@ void print()
 {
 printf("Have a nice day!");
  }
- 
  ````
- -----
+ Output:
+ `````
+ 3
  
+ Have a nice day!
+ ````
+ 7
+
+     #
+    #.#
+   #...#
+  #.....#
+ #.......#
+````
+12
+
+1 x 7 = 7
+
+2 x 7 = 14
+````
+----
