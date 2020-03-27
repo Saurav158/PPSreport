@@ -530,6 +530,7 @@ void print()
 {
 printf("Have a nice day!");
  }
+ 
  ````
  Output:
  `````
@@ -546,7 +547,7 @@ printf("Have a nice day!");
  #.......#
 ````
 12
-
+````
 1 x 7 = 7
 
 2 x 7 = 14
