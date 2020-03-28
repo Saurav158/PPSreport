@@ -834,7 +834,7 @@ int main(int argc, char * argv[])
 ````
 ````
 Output:
+`````
 ![img1](https://cloud.githubusercontent.com/assets/9862039/26368958/3d00a16e-3fc1-11e7-9b0c-9fed3befa812.png)
 
-````
 ----
