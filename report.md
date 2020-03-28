@@ -553,3 +553,66 @@ printf("Have a nice day!");
 2 x 7 = 14
 ````
 ----
+Experiment18 :
+Write a computer program in C, to print nth term, and sum up to nth term for series:
+
+x−x^3/3!+x^5/5!−x^7/7!+x^9/9!−⋯
+
+where "1" represent factorial.
+
+No user made function or library function is to be used.
+````C
+#include<stdio.h>
+int main()
+{
+int x,n;
+printf("\nThe series is : x-x^3/3!+x^5/5!-......");
+printf("\nEnter the value of x and n:");
+scanf("%d %d",&x,&n);
+int i,m;
+float sum=0,a,b,c;
+for(i=1;i<=n;i++)
+   {
+   m=((2*1)-1);
+   a=pow(x,m);
+   b=fact(m);
+   c=a/b;
+   if(i%2==0)
+   sum=sum-c;
+   else
+   sum=sum+c; 
+   }
+printf(" thye nth term is %d^%d/%d!",x,m,m);   
+printf(" the sum of nth term is %0.3f\n",sum);
+return 0;
+}
+
+int pow(int a,int b)
+{
+int p=1,i=1;
+while(b!=0)
+   {
+    p=p*a;
+    b--;
+   }
+return (p);
+}
+
+int fact(int n)
+{
+int i,f=1;
+for(i=n;i>1;i--)
+  {
+   f=f*i;
+  }
+return (f);
+}
+````
+Output: 
+3
+3
+the nth term is 3^5/5!
+
+the sum of nth term is 0.525
+````
+----
